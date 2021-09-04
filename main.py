@@ -51,7 +51,7 @@ def main():
     ua = UserAgent()
     userAgent = ua.random
     options.add_argument(f'user-agent={userAgent}')
-
+    # options.add_argument('--log-level=3') #Uncooment to disable unnecessary Logs
     resturant_names = []
     resturant_urls = []
     final_data = {}
