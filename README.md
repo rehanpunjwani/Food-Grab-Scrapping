@@ -34,5 +34,5 @@ python main.py
 `data/final_data.json`: JSON data of the resturants of a location with there urls and geolocation data
 
 ## Contact
-Feel free to contact me at rehanpunjwani `<at>` gmail `<dot>` com
+Feel free to contact me at `rehanpunjwani@gmail.com`
 
