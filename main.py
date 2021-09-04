@@ -80,7 +80,7 @@ def main():
     for index in range(len(resturant_urls[:5])):
         locationObj = get_resturants_location(url + resturant_urls[index])
         final_data[resturant_names[index]] = {}
-        final_data[resturant_names[index]]['location'] = locationObj
+        final_data[resturant_names[index]]['latlng'] = locationObj
         final_data[resturant_names[index]]['href'] = resturant_urls[index]
 
     if not os.path.exists(directory):
