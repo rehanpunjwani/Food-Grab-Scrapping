@@ -1,0 +1,37 @@
+{
+    "McDonald's - Sta Cruz Church": {
+        "location": {
+            "latitude": 14.599870428571428,
+            "longitude": 120.9797005
+        },
+        "href": "/ph/en/restaurant/mcdonald-s-sta-cruz-church-delivery/AWiD5JwQfYWaYaQC4nY4"
+    },
+    "Mang Inasal - Tayuman": {
+        "location": {
+            "latitude": 14.6163699,
+            "longitude": 120.98280734000001
+        },
+        "href": "/ph/en/restaurant/mang-inasal-tayuman-delivery/2-CZCVUA42FBUTTX"
+    },
+    "Chowking - Avenida Recto": {
+        "location": {
+            "latitude": 14.603883721428572,
+            "longitude": 120.98188061935484
+        },
+        "href": "/ph/en/restaurant/chowking-avenida-recto-delivery/2-CYMHN7EHBEKAR2"
+    },
+    "Jollibee - Raon": {
+        "location": {
+            "latitude": 14.6007231,
+            "longitude": 120.98439648
+        },
+        "href": "/ph/en/restaurant/jollibee-raon-delivery/2-CZC1EZEYACBTCX"
+    },
+    "Wendy's - Dapitan [Available for LONG-DISTANCE DELIVERY]": {
+        "location": {
+            "latitude": 14.611880266666667,
+            "longitude": 120.9884545
+        },
+        "href": "/ph/en/restaurant/wendy-s-dapitan-available-for-long-distance-delivery-delivery/PHGFSTI0000017w"
+    }
+}
