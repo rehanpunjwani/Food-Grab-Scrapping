@@ -69,6 +69,7 @@ def main():
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     rest_elems = soup.select(
         'div.ant-col-24.RestaurantListCol___1FZ8V.ant-col-md-12.ant-col-lg-6')
+    print(len(rest_elems))
     for sub_elems in rest_elems:
         h_elems = sub_elems.find('h6', {"class": "name___2epcT"})
         resturant_names.append(h_elems.text)
@@ -77,7 +78,7 @@ def main():
 
     url = 'https://food.grab.com'
     # Going for only first 5 urls to avoid the blocking from food-grab
-    for index in range(len(resturant_urls[:5])):
+    for index in range(len(resturant_urls)):
         locationObj = get_resturants_location(url + resturant_urls[index])
         final_data[resturant_names[index]] = {}
         final_data[resturant_names[index]]['latlng'] = locationObj
@@ -86,7 +87,7 @@ def main():
     if not os.path.exists(directory):
         os.makedirs(directory)
     final_data_json = json.dumps(final_data)
-    fp = open('data/final_data.json', 'a')
+    fp = open('data/final_data.json', 'w+')
     fp.write(final_data_json)
     fp.close
     print('Find the Final Data in data directory')
